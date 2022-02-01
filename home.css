@@ -24,7 +24,7 @@ h1{
 }
 
 h2{
-  position: absolute;
+  position: relative;
   top:10vh;
   text-align: center;
   width: 100%;
@@ -33,17 +33,21 @@ h2{
 #we-div .stage{
   width: 100%;
   text-align: center;
-  position: absolute;
+  position: relative;
 }
 
 #we-div #first{
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 
 #we-div #second{
-  margin-top: :10vh;
+  margin-top:10vh;
 }
 
 #we-div #third{
+  margin-top:15vh;
+
+}
+#we-div #fourth{
   margin-top:10vh;
 }
