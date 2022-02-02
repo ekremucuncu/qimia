@@ -56,26 +56,3 @@ section{
   }
 
 }
-
-.stage .describtion{
-  font-size: smaller;
-  color: #081539;
-}
-
-#we-div #elips-logo{
-  position: absolute;
-  top:45vh;
-  text-align: center;
-  width: 100%;
-}
-
-#landing-div #logo{
-  position: absolute;
-  top:40vh;
-  text-align: center;
-  width: 100%;
-}
-
-#landing-div #logo-img{
-  max-height: 30vh;
-}
