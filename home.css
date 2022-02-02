@@ -2,7 +2,7 @@ html,body{
     height: 100%;
 }
 
-#landing-section #landing-div{
+#landing-section .landing-div{
   background-image: url('images/Vector.svg');
   height: 100%;
   background-position: center;
@@ -28,11 +28,12 @@ section{
 #we-section .item-describe{
   font-size: smaller;
 }
-.who{
+
+.column-item .who{
   font-family: 'Oswald';
 }
 
-#landing-div .landing-header{
+.landing-div .landing-header{
   z-index: 2;
   position:absolute;
   bottom: 15vh;
@@ -43,16 +44,20 @@ section{
   color:#f5f5f5;
 }
 
-#landing-div #logo{
+.landing-div .logo{
   position: absolute;
   top:30vh;
   text-align: center;
   width: 100%;
 }
 
-@media only screen and (max-width: 1000px){
+#we-section .last{
+  padding-bottom: 10vh;
+}
+
+/* @media only screen and (max-width: 1000px){
   #we-section{
     height: 175vh; !important
   }
 
-}
+} */
