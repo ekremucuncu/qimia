@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="home.js" defer></script>
   </head>
   <body>
     <section id="landing-section">
@@ -95,82 +96,102 @@
           <h4 id="hizmetler" class="float-start cursor">HİZMETLER</h4>
         </div>
       </div>
-      <div class="container">
+
+      <div id="bgi" class="background-image-1">
+        <div class="container">
         <div id="first" class="row">
-          <div class="col col-lg-6">
-            <h2>Çözümler</h2>
+          <div class="col col-lg-7">
+            <div class="row row-left">
+              <div class="col-lg-12 h-tp">
+                <h3>Çözümler</h3>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Veri Merkezi Çözümleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Kurumsal Ağ Çözümleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>IT Konsolidasyon & Sanallaştırma</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Güvenlik Çözümlerimiz</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Bulut Çözümlerimiz</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Mobil ve Son Kullanıcı Çözümlerimiz</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Baskı Merkezi Çözümleri ve Güvenli Doküman Yönetimi</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Dijital İş Çözümleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+            </div>
           </div>
-          <div class="w-100"></div>
-          <div class="col col-lg-2">
-            <p>Veri Merkezi Çözümleri</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Kurumsal Ağ Çözümleri</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>IT Konsolidasyon & Sanallaştırma</p>
-          </div>
-          <div class="w-100"></div>
-          <div class="col col-lg-2">
-            <p>Güvenlik Çözümlerimiz</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Bulut Çözümlerimiz</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Mobil ve Son Kullanıcı Çözümlerimiz</p>
-          </div>
-          <div class="w-100"></div>
-          <div class="col col-lg-2">
-            <p>Baskı Merkezi Çözümleri ve Güvenli Doküman Yönetimi</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Dijital İş Çözümleri</p>
-          </div>
-        </div>
-        <div id="second" class="row" style="display:none">
-          <div class="col col-lg-6">
-            <h2>Hizmetler</h2>
-          </div>
-          <div class="w-100"></div>
-          <div class="col col-lg-2">
-            <p>Microsoft İş Çözümleri & Danışmanlık Hizmetleri</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Proje Kurulum & Yönetim Hizmetleri</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Danışmanlık Destek Hizmetleri</p>
-          </div>
-          <div class="w-100"></div>
-          <div class="col col-lg-2">
-            <p>Profesyonel Hizmetler</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>7x24 Teknik Destek Hizmetler</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Garanti Paketleri Hizmetleri</p>
-          </div>
-          <div class="w-100"></div>
-          <div class="col col-lg-2">
-            <p>Satış Hizmetleri</p>
-          </div>
-          <div class="col col-lg-2">
-            <p>Altyapı ve Yapısal Kablolama</p>
+          <div class="col col-lg-5">
+            <img class="newspaper" src="images/gazete.svg" alt="gazete">
           </div>
         </div>
+
+        <div id="second" style="display:none; "class="row">
+          <div class="col col-lg-7">
+            <div class="row row-left">
+              <div class="col-lg-12 h-tp">
+                <h3>Hizmetler</h3>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Microsoft İş Çözümleri & Danışmanlık Hizmetleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Proje Kurulum & Yönetim Hizmetleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Danışmanlık Destek Hizmetleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Profesyonel Hizmetler</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>7x24 Teknik Destek Hizmetler</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Garanti Paketleri Hizmetleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Satış Hizmetleri</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+              <div class="col-lg-3 ul-item">
+                <p>Altyapı ve Yapısal Kablolama</p>
+                <a href="#" class="inspect"><p>İncele<span class="a-arrow"><img src="images/arrow.svg" alt="arrow"></span> </p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-lg-5">
+            <img class="newspaper" src="images/gazete.svg" alt="gazete">
+          </div>
+        </div>
+
       </div>
+      </div>
+      <div class="foot-image"></div>
     </section>
-    <script type="text/javascript">
-      $("#cozumler").click(function () {
-        $("#first").css("display", "");
-        $("#second").css("display", "none");
-      });
-      $("#hizmetler").click(function () {
-        $("#first").css("display", "none");
-        $("#second").css("display", "");
-      });
-    </script>
   </body>
 </html>
