@@ -10,6 +10,31 @@ section{
   position: relative;
 }
 
+@font-face {
+  font-family: Gordita;
+  src: url(../fonts/Gordita-Regular.otf);
+}
+
+@font-face {
+  font-family: Gordita-bold;
+  src: url(../fonts/Gordita-Bold.otf);
+}
+
+@font-face {
+  font-family: Gordita-light;
+  src: url(../fonts/Gordita-Light.otf);
+}
+
+@font-face {
+  font-family: Gordita-medium;
+  src: url(../fonts/Gordita-Medium.otf);
+}
+
+@font-face {
+  font-family: Gordita-black;
+  src: url(../fonts/Gordita-Black.otf);
+}
+
 /* Home - Landing */
 
 #landing-section .landing-div{
@@ -77,6 +102,29 @@ section{
 
 #why-elips ul, #two-page ul{
   list-style-image: url('images/ellipse 18.svg');
+}
+
+#why-elips .button-orange-div{
+  background-color: #ff7b07;
+  height: 65px;
+  width: 250px;
+}
+
+#why-elips .button-orange{
+  text-decoration: none;
+  color: white;
+  padding: 20px 30px;
+  display: flex;
+  margin-right: 10px;
+}
+
+#why-elips .button-orange-span{
+  width: 100px;
+}
+
+#why-elips .a-arrow{
+  position: relative;
+  right:10px;
 }
 
 /* Home -TwoPage */
