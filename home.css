@@ -68,7 +68,7 @@ section{
 #we-section{
   height: auto;
 }
-#we-section .column-item{
+#we-section .col-item{
   text-align: center;
   margin-top: 1vh;
 }
@@ -81,7 +81,7 @@ section{
   font-size: smaller;
 }
 
-.column-item .who{
+.col-item .who{
   font-family: 'Oswald';
 }
 
@@ -104,13 +104,13 @@ section{
   list-style-image: url('images/ellipse 18.svg');
 }
 
-#why-elips .button-orange-div{
+.button-orange-div{
   background-color: #ff7b07;
   height: 65px;
   width: 250px;
 }
 
-#why-elips .button-orange{
+.button-orange{
   text-decoration: none;
   color: white;
   padding: 20px 30px;
@@ -118,13 +118,13 @@ section{
   margin-right: 10px;
 }
 
-#why-elips .button-orange-span{
-  width: 100px;
+.button-orange-span{
+  width: 100%;
 }
 
-#why-elips .a-arrow{
+.a-arrow-white{
   position: relative;
-  right:10px;
+
 }
 
 /* Home -TwoPage */
@@ -191,14 +191,41 @@ section{
   width: 100%;
   height: 10vh;
   background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+#two-page .button-orange-div{
+  margin-top: 5vh;
+}
+
+/* Home - sectors */
+
+#sectors {
+  background-image: url('images/Group 6487.svg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+#sectors .header-sector{
+  padding-top: 5vh;
+}
 
-/* @media only screen and (max-width: 1000px){
-  #we-section{
-    height: 175vh; !important
-  }
+#sectors .con-sec{
+  margin-top: 5vh;
+}
 
-} */
+#sectors .box{
+  background-color: #ffffff;
+  padding: 3vh;
+  margin-bottom: 3vh;
+}
+
+#sectors .col-item-c{
+  text-align: center;
+}
+
+#sectors .col-item-s{
+  margin-bottom: 1vh;
+}
