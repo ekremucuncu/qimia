@@ -10,8 +10,99 @@
   src: url('gordita-cufonfonts/Gordita Bold.otf');
 }
 
-/* General CSS */
 
+/* Navbar */
+
+header .navbar-icons{
+  color:#f67b10 !important;
+  font-family: 'gordita';
+  font-size: 12px;
+}
+
+header .right-nav{
+  padding-left: 5vh;
+}
+
+header .navbar-first{
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+}
+
+header .navbar-text{
+  color:#f67b10 !important;
+  font-family: 'gordita';
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+header  .navbar-text-right{
+  color: white !important;
+  font-family: 'gordita';
+  font-size: 13px;
+  margin: 0px 25px;
+  padding: 18px 0px;
+  width: auto;
+}
+
+.navbar-background-border .navbar-text-right:hover{
+  color:#f67b10 !important;
+  border-bottom: 2px solid #f67b10;
+  height: 100%;
+}
+
+header .dropdown-text{
+  color: black !important;
+  font-family: 'gordita';
+  font-size: 13px;
+  padding: 20px 32px;
+  height: 100%;
+}
+
+header .dropdown-text:hover{
+  color:white !important;
+  background-color: #f67b10;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block ;
+ }
+
+
+header .navbar-background-border {
+  padding: 0px;
+  background: linear-gradient(
+    270deg,
+    #091538 2.85%,
+    #0c1f53 9.81%,
+    #0c1f53 32.53%,
+    #081539 45.04%,
+    #081539 79.75%,
+    #011a3e 100%
+  );
+  border: 1px solid;
+    border-image-source: linear-gradient(
+      270deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.725799) 24.29%,
+      rgba(255, 255, 255, 0) 55.28%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    border-image-slice: 1;
+}
+
+header .nav-2{
+  background-color: #091538 !important;
+  border-bottom: 1px solid white;
+  padding: 0;
+}
+
+#search{
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+}
+/* General CSS */
 html,body{
     height: 100%;
 }
@@ -59,13 +150,17 @@ section{
 
 /* Home - Landing */
 
-#landing-section .landing-div{
-  background-image: url('images/Vector.svg');
+#landing-section{
+  /* background-image: url('images/Vector.svg'); */
+  background-color: black;
   height: 100%;
-  background-position: center;
+  width: 100%;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   z-index: 1;
+  margin: 0;
+  padding: 0;
 }
 
 #landing-section .landing-header{
@@ -91,6 +186,16 @@ section{
   bottom: 10vh;
   left: 49vw;
 }
+
+/* #landing-section .vector{
+    background-image: url('images/Group 6284.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%
+    z-index: 1;
+} */
 
 /* Home - WeSection */
 
