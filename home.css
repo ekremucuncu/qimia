@@ -21,6 +21,7 @@ header .navbar-icons{
 
 header .right-nav{
   padding-left: 5vh;
+  margin-right: 0;
 }
 
 header .navbar-first{
@@ -44,20 +45,29 @@ header  .navbar-text-right{
   margin: 0px 25px;
   padding: 18px 0px;
   width: auto;
+  border-bottom: 2px solid transparent;
 }
 
-.navbar-background-border .navbar-text-right:hover{
+header .navbar-text-right:hover{
   color:#f67b10 !important;
   border-bottom: 2px solid #f67b10;
   height: 100%;
 }
 
+header .work{
+  margin-right: 0;
+  padding-right: 0;
+}
+header .dropdown-right{
+  margin-left: 22px;
+}
 header .dropdown-text{
   color: black !important;
   font-family: 'gordita';
   font-size: 13px;
   padding: 20px 32px;
   height: 100%;
+  padding-top: 1.5vh;
 }
 
 header .dropdown-text:hover{
@@ -101,6 +111,28 @@ header .nav-2{
 #search{
   border-right: 1px solid white;
   border-left: 1px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0px;
+}
+
+header .navbar-search{
+  background-color: #0068fa !important;
+}
+
+header .search-text{
+  background-color: #005ad8;
+  width: 40%;
+}
+
+header ::placeholder{
+  color: white !important;
+  font-family: 'gordita';
+  font-size: 12px;
+}
+
+header .input-div{
+  width: 100%;
 }
 /* General CSS */
 html,body{
@@ -151,13 +183,13 @@ section{
 /* Home - Landing */
 
 #landing-section{
-  /* background-image: url('images/Vector.svg'); */
-  background-color: black;
+  background-image: url('images/Vector.svg');
+  /* background-color: black; */
   height: 100%;
   width: 100%;
-  /* background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: cover;
   z-index: 1;
   margin: 0;
   padding: 0;
@@ -553,4 +585,90 @@ section{
 #partner .button-orange-div{
   margin: auto;
   margin-top: 10vh;
+}
+
+/* Footer */
+
+/* Footer1 */
+
+footer .footer-1{
+  background-image: url('images/Rectangle 53.svg');
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-1 .container-header{
+  padding-top: 7vh;
+  padding-bottom: 10vh;
+}
+
+.footer-1 .white{
+  color:white;
+}
+
+.footer-1{
+  font-family: 'gordita';
+  font-size: 14px;
+}
+
+.footer-1 .check{
+  margin-top: 3vh;
+}
+
+.footer-1 .contact-form{
+  margin-top: 6vh;
+}
+
+.footer-1 .button-orange-div{
+  margin:auto;
+  margin-top: 6vh;
+  background-color: white;
+}
+
+.footer-1 .button-orange{
+  color:#ff7b07;
+}
+
+.footer-1 .button-1{
+  margin-top: 0;
+  width: 150px;
+}
+
+
+footer .footer-2{
+  background-color: #081539;
+}
+
+.footer-2{
+  color:white;
+  font-family: 'gordita';
+  font-size: 12px;
+}
+
+.footer-2 .footer-sub-header{
+  font-size: 18px;
+}
+
+.footer-2 .sub-header{
+  margin-top: 2vh;
+}
+
+.footer-2 .container-header{
+  padding-top: 5vh;
+  padding-bottom: 7vh;
+}
+
+.footer-2 .marka-big{
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+.footer-2 .marka{
+  margin-bottom: 3vh;
+}
+
+.footer-2 .last-row{
+  text-align: right;
 }

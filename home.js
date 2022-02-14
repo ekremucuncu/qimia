@@ -38,3 +38,17 @@ $(window).on("scroll", function() {
         $("#go-top").fadeIn();
     }
 });
+
+$("#search").click(function () {
+  if (this.className=='nav-link navbar-text-right plus'){
+    $("#anti-search").css("display", "none");
+    $("#searching").css("display", "");
+    $("#search").attr("class", "nav-link navbar-text-right minus");
+  }
+  else{
+    $("#anti-search").css("display", "");
+    $("#searching").css("display", "none");
+    $("#search").attr("class", "nav-link navbar-text-right plus");
+  }
+
+});
