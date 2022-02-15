@@ -46,6 +46,7 @@ header  .navbar-text-right{
   padding: 18px 0px;
   width: auto;
   border-bottom: 2px solid transparent;
+  width: max-content;
 }
 
 header .navbar-text-right:hover{
@@ -54,13 +55,20 @@ header .navbar-text-right:hover{
   height: 100%;
 }
 
+/* .nav-2 .container{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+} */
+
 header .work{
   margin-right: 0;
   padding-right: 0;
 }
+
 header .dropdown-right{
   margin-left: 22px;
 }
+
 header .dropdown-text{
   color: black !important;
   font-family: 'gordita';
@@ -73,12 +81,25 @@ header .dropdown-text{
 header .dropdown-text:hover{
   color:white !important;
   background-color: #f67b10;
+  width: 105%;
 }
 
 .dropdown:hover .dropdown-menu {
-    display: block ;
+    display: block;
  }
 
+ @media screen and (max-width:992px){
+   .dropdown:hover .dropdown-menu {
+       display: none;
+    }
+    header .navbar-text-right,header .dropdown-right{
+      margin-left: 0px;
+    }
+    #search{
+      border-right: none !important;
+      border-left: none !important;
+    }
+ }
 
 header .navbar-background-border {
   padding: 0px;
@@ -114,6 +135,7 @@ header .nav-2{
   padding-left: 20px;
   padding-right: 20px;
   margin: 0px;
+  border-bottom: none;
 }
 
 header .navbar-search{
@@ -123,12 +145,43 @@ header .navbar-search{
 header .search-text{
   background-color: #005ad8;
   width: 40%;
+  margin: 1.5vh 0vh;
+  border: none;
+}
+
+header .button-orange-div{
+  width: 120px;
+  height: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5vh;
+  background-color: #005ad8;
+}
+
+header .button-orange{
+  padding: 5px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+header .button-orange-span{
+  font-size: 12px;
+  margin: auto;
+}
+
+.a-arrow-white img{
+  margin-bottom: 6px;
+}
+
+header .button-orange-div:hover{
+  background-color: #ff7b07;
 }
 
 header ::placeholder{
   color: white !important;
   font-family: 'gordita';
   font-size: 12px;
+  padding-left: 5vh;
 }
 
 header .input-div{
@@ -671,4 +724,19 @@ footer .footer-2{
 
 .footer-2 .last-row{
   text-align: right;
+}
+
+Footer .footer-3{
+  background-color: #081539;
+  background-image: url('images/footer-waves-background.png');
+  background-position: left;
+  background-size:cover;
+  background-repeat: no-repeat;
+  font-family: 'gordita';
+  color: white;
+  font-size: 14px;
+}
+
+.footer-3 .container-footer{
+  padding-top: 20vh;
 }

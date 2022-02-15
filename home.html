@@ -34,17 +34,19 @@
         </div>
         </div>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-2">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light nav-2">
           <div class="container">
             <a class="navbar-brand" href="#"> <img src="images/ELIPS LOGO.svg" alt=""> </a>
+            <ul class="navbar-nav">
+              <li id="search-item" class="nav-item">
+                <a id="search" class="nav-link navbar-text-right plus" href="#"> <img id="search-image" src="images/Group 8.svg" alt=""> </a>
+              </li>
+            </ul>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div id="navbarScroll" class="collapse navbar-collapse">
-
-            <div class="col-lg-6 float-end">
-              <ul class="navbar-nav float-end">
+            <div id="navbarScroll" class="collapse navbar-collapse justify-content-lg-end">
+              <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                   <a class="nav-link navbar-text-right" href="https://www.elips.com/hakkimizda/vizyon-misyon.aspx" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                      HAKKIMIZDA
@@ -100,18 +102,21 @@
                 <li class="nav-item">
                   <a class="nav-link navbar-text-right" href="https://www.elips.com/iletisim.aspx">İLETİŞİM</a>
                 </li>
-                <li class="nav-item">
-                  <a id="search" class="nav-link navbar-text-right plus" href="#"> <img src="images/Group 8.svg" alt=""> </a>
+                <li class="nav-item d-lg-none">
+                  <a class="nav-link navbar-text-right" href="https://www.elips.com/basari-oykulerimiz/oduller-ve-sertifikalar/oduller-ve-sertifikalar.aspx" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    BAŞARI ÖYKÜLERİMİZ
+                  </a>
+                </li>
+                <li class="nav-item d-lg-none">
+                  <a class="nav-link navbar-text-right work" href="https://www.elips.com/is-ortaklarimiz.aspx">İŞ ORTAKLARIMIZ</a>
                 </li>
               </ul>
-            </div>
           </div>
-
           </div>
         </nav>
 
 
-        <nav id="anti-search" class="navbar navbar-expand-lg navbar-collapse navbar-light bg-light navbar-background-border">
+        <nav id="anti-search" class="navbar navbar-expand-lg navbar-collapse navbar-light bg-light navbar-background-border d-none d-lg-block">
         <div class="container">
           <div class="col-lg-6">
             <p class="nav-link active navbar-text">+30 Sene Türk Bilişim Sektörüne Hizmet</p>
@@ -139,10 +144,9 @@
           <div class="container">
             <div class="d-flex justify-content-center input-div">
               <input class="search-text form-control" type="text" name="" value="" placeholder="Size Nasıl Yardımcı Olabilir?">
-              <a type="button" name="button">
-                Sitede Ara
-                <img src="images/aarow.svg" alt="">
-              </a>
+              <div class="button-orange-div">
+                <a class="button-orange" href="https://www.elips.com/iletisim.aspx"><span class="button-orange-span">Bize Ulaşın</span><span class="a-arrow-white"><img src="images/aarrow.svg" alt="arrow"></span></a>
+              </div>
             </div>
           </div>
 
@@ -821,6 +825,33 @@
         </div>
       </div>
 
+
+      <div class="footer-3">
+        <div class="container container-footer">
+          <div class="row">
+            <div class="col-12 text-center">
+              <p>Elips Elektronik SAN. VE TİC. LTD. ŞTİ</p>
+            </div>
+            <div class="col-12 text-center">
+              <img src="images/Vector 28.svg" alt="">
+            </div>
+            <div class="col-6">
+              <p class="float-end">Site Haritası</p>
+            </div>
+            <div class="col-6">
+              <p class="float-start">Bilgi Toplumu Hizmet Verileri</p>
+            </div>
+            <div class="col-6">
+              <p class="float-end">© Elips Elektronik 2021</p>
+            </div>
+            <div class="col-6">
+              <img src="images/vicration.svg" alt="">  Vicreation | vicreation.de
+            </div>
+          </div>
+
+
+        </div>
+      </div>
     </footer>
 
 

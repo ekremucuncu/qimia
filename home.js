@@ -41,14 +41,18 @@ $(window).on("scroll", function() {
 
 $("#search").click(function () {
   if (this.className=='nav-link navbar-text-right plus'){
-    $("#anti-search").css("display", "none");
+    $("#anti-search").attr("class", "navbar navbar-expand-lg navbar-collapse navbar-light bg-light navbar-background-border d-none");
     $("#searching").css("display", "");
     $("#search").attr("class", "nav-link navbar-text-right minus");
+    $("#search-image").attr("src","images/Group10.svg");
+    $("#search-item").css("background-color","#0068fa");
   }
   else{
-    $("#anti-search").css("display", "");
+    $("#anti-search").attr("class", "navbar navbar-expand-lg navbar-collapse navbar-light bg-light navbar-background-border d-none d-lg-block");
     $("#searching").css("display", "none");
     $("#search").attr("class", "nav-link navbar-text-right plus");
+    $("#search-image").attr("src","images/Group 8.svg");
+    $("#search-item").css("background-color","#091538");
   }
 
 });
